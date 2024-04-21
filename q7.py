@@ -4,4 +4,6 @@ def fun(n):
         fact=num*fact
     print(fact)
 n=int(input("enter the number"))    
-fun(n)
+#fun(n)
+for num in range(1,n+1):
+    fun(num)
